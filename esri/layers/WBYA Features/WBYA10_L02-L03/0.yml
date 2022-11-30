@@ -1,0 +1,9 @@
+id: WBYA Features/WBYA10_L02-L03/0
+type: fill
+source: esri
+source-layer: WBYA10_L02-L03
+minzoom: 1
+maxzoom: 3
+layout: {}
+paint:
+  fill-color: '#DFEFF7'

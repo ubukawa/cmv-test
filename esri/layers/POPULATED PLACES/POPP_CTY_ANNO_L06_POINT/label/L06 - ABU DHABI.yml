@@ -1,0 +1,20 @@
+id: POPULATED PLACES/POPP_CTY_ANNO_L06_POINT/label/L06 - ABU DHABI
+type: symbol
+source: esri
+source-layer: POPP_CTY_ANNO_L06_POINT
+minzoom: 5
+maxzoom: 5.89
+layout:
+  text-font:
+    - Arial Regular
+  text-size: 10
+  text-max-width: 30
+  text-anchor: center
+  text-letter-spacing: 0.05
+  text-field: '{_name1}'
+  text-allow-overlap: true
+  text-optional: true
+paint:
+  text-color: '#3E3F40'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1.13333

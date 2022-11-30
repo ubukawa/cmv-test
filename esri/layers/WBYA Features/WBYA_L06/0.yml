@@ -1,0 +1,13 @@
+id: WBYA Features/WBYA_L06//0
+type: fill
+source: esri
+source-layer: WBYA_L06
+filter:
+  - '=='
+  - _symbol
+  - 1
+minzoom: 5
+maxzoom: 5.89
+layout: {}
+paint:
+  fill-color: '#DFEFF7'

@@ -1,0 +1,12 @@
+id: Base Layers/Coastline/Coastline_L01-L04
+type: line
+source: esri
+source-layer: Coastline_L01-L04
+maxzoom: 4
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#5B808C'
+  line-width: 0.25
+  line-opacity: 0.4

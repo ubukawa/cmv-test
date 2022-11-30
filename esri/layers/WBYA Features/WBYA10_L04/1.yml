@@ -1,0 +1,12 @@
+id: WBYA Features/WBYA10_L04/1
+type: line
+source: esri
+source-layer: WBYA10_L04
+minzoom: 3
+maxzoom: 4
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: rgba(157,189,209,0.75)
+  line-width: 1

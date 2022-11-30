@@ -1,0 +1,17 @@
+id: Global Boundaries/Global Boundaries L03/International Boundary
+type: line
+source: esri
+source-layer: Global Boundaries L03
+filter:
+  - '=='
+  - _symbol
+  - 0
+minzoom: 2
+maxzoom: 3
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#737B80'
+  line-width: 0.4
+  line-opacity: 0.9

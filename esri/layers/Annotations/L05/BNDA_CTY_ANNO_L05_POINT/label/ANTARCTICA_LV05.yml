@@ -1,0 +1,19 @@
+id: Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/ANTARCTICA_LV05
+type: symbol
+source: esri
+source-layer: BNDA_CTY_ANNO_L05_POINT
+minzoom: 4
+maxzoom: 5
+layout:
+  text-font:
+    - Arial Narrow Italic
+  text-size: 15.3333
+  text-anchor: center
+  text-letter-spacing: 5
+  text-field: '{_name4}'
+  text-allow-overlap: true
+  text-optional: true
+paint:
+  text-color: '#636566'
+  text-halo-color: rgba(255,255,255,0.5)
+  text-halo-width: 1

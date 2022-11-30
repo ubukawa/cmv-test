@@ -1,0 +1,9 @@
+id: Base Layers/Urban areas
+type: fill
+source: esri
+source-layer: Urban areas
+minzoom: 4
+maxzoom: 5.89
+layout: {}
+paint:
+  fill-color: '#E6E6E1'

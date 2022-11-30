@@ -1,0 +1,19 @@
+id: Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/Antarctica_LV03
+type: symbol
+source: esri
+source-layer: BNDA_CTY_ANNO_L03_POINT
+minzoom: 2
+maxzoom: 3
+layout:
+  text-font:
+    - Open Sans Semibold Italic
+  text-size: 9.33333
+  text-anchor: center
+  text-letter-spacing: 4
+  text-field: '{_name11}'
+  text-allow-overlap: true
+  text-optional: true
+paint:
+  text-color: '#6E7780'
+  text-halo-color: rgba(250,251,252,0.25)
+  text-halo-width: 1

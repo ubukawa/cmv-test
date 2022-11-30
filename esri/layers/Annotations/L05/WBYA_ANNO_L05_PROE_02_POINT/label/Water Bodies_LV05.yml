@@ -1,0 +1,19 @@
+id: Annotations/L05/WBYA_ANNO_L05_PROE_02_POINT/label/Water Bodies_LV05
+type: symbol
+source: esri
+source-layer: WBYA_ANNO_L05_PROE_02_POINT
+minzoom: 4
+maxzoom: 5
+layout:
+  text-font:
+    - Open Sans Bold Italic
+  text-size: 8
+  text-anchor: center
+  text-letter-spacing: 0.3
+  text-field: '{_name}'
+  text-allow-overlap: true
+  text-optional: true
+paint:
+  text-color: '#66A2CC'
+  text-halo-color: rgba(252,252,250,0.75)
+  text-halo-width: 1

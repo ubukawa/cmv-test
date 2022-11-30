@@ -1,0 +1,21 @@
+id: >-
+  Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/Memeber State_AVG SURF_1
+  LINE_LV04
+type: symbol
+source: esri
+source-layer: BNDA_CTY_ANNO_L04_POINT
+minzoom: 3
+maxzoom: 4
+layout:
+  text-font:
+    - Open Sans Bold
+  text-size: 9.66667
+  text-anchor: center
+  text-letter-spacing: 0.1
+  text-field: '{_name13}'
+  text-allow-overlap: true
+  text-optional: true
+paint:
+  text-color: '#6E7780'
+  text-halo-color: rgba(250,251,252,0.5)
+  text-halo-width: 0.733333

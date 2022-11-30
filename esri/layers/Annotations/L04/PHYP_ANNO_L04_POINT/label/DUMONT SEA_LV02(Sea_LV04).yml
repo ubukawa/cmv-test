@@ -1,0 +1,20 @@
+id: Annotations/L04/PHYP_ANNO_L04_POINT/label/DUMONT SEA_LV02(Sea_LV04)
+type: symbol
+source: esri
+source-layer: PHYP_ANNO_L04_POINT
+minzoom: 3
+maxzoom: 4
+layout:
+  text-font:
+    - Open Sans Semibold Italic
+  text-size: 10
+  text-anchor: center
+  text-max-width: 20
+  text-letter-spacing: 0.3
+  text-field: '{_name5}'
+  text-allow-overlap: true
+  text-optional: true
+paint:
+  text-color: '#6097BF'
+  text-halo-color: rgba(206,225,242,0.7)
+  text-halo-width: 0.733333

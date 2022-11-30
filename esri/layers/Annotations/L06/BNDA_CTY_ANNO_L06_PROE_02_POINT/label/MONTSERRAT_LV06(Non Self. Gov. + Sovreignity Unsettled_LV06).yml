@@ -1,0 +1,24 @@
+id: >-
+  Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/MONTSERRAT_LV06(Non
+  Self. Gov. + Sovreignity Unsettled_LV06)
+type: symbol
+source: esri
+source-layer: BNDA_CTY_ANNO_L06_PROE_02_POINT
+minzoom: 5
+maxzoom: 5.89
+layout:
+  text-font:
+    - Open Sans Bold
+  text-size: 14
+  text-anchor: right
+  text-offset:
+    - -0.0952381
+    - 0
+  text-letter-spacing: 0.15
+  text-field: '{_name16}'
+  text-allow-overlap: true
+  text-optional: true
+paint:
+  text-color: '#575859'
+  text-halo-color: rgba(255,255,255,0.5)
+  text-halo-width: 1

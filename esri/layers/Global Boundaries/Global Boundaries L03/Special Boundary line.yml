@@ -1,0 +1,19 @@
+id: Global Boundaries/Global Boundaries L03/Special Boundary line
+type: line
+source: esri
+source-layer: Global Boundaries L03
+filter:
+  - '=='
+  - _symbol
+  - 1
+minzoom: 2
+maxzoom: 3
+layout:
+  line-join: round
+paint:
+  line-color: '#737C80'
+  line-dasharray:
+    - 3.8
+    - 3
+  line-width: 0.333333
+  line-opacity: 0.9

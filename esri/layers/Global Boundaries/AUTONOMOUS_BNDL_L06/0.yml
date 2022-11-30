@@ -1,0 +1,14 @@
+id: Global Boundaries/AUTONOMOUS_BNDL_L06/0
+type: line
+source: esri
+source-layer: AUTONOMOUS_BNDL_L06
+minzoom: 5
+maxzoom: 5.89
+layout:
+  line-join: round
+paint:
+  line-color: '#7D868C'
+  line-dasharray:
+    - 7.93333
+    - 4.93333
+  line-width: 1

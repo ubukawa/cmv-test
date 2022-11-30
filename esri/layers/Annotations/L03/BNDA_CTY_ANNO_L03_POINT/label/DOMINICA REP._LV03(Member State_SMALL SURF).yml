@@ -1,0 +1,21 @@
+id: >-
+  Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/DOMINICA REP._LV03(Member
+  State_SMALL SURF)
+type: symbol
+source: esri
+source-layer: BNDA_CTY_ANNO_L03_POINT
+minzoom: 2
+maxzoom: 3
+layout:
+  text-font:
+    - Open Sans Semibold Regular
+  text-size: 8.33333
+  text-anchor: center
+  text-justify: left
+  text-field: '{_name10}'
+  text-allow-overlap: true
+  text-optional: true
+paint:
+  text-color: '#6E7780'
+  text-halo-color: rgba(250,251,252,0.25)
+  text-halo-width: 0.733333

@@ -1,0 +1,20 @@
+id: POPULATED PLACES/POPP_CTY_ANNO_L06_POINT/label/POPP_LV06
+type: symbol
+source: esri
+source-layer: POPP_CTY_ANNO_L06_POINT
+minzoom: 5
+maxzoom: 5.89
+layout:
+  text-font:
+    - Arial Unicode MS Regular
+  text-size: 10
+  text-anchor: center
+  text-letter-spacing: 0.1
+  text-max-width: 50
+  text-field: '{_name}'
+  text-allow-overlap: true
+  text-optional: true
+paint:
+  text-color: '#3E3F40'
+  text-halo-color: rgba(255,255,255,0.8)
+  text-halo-width: 1.13333

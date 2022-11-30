@@ -1,0 +1,25 @@
+id: >-
+  Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/DOMINICA REP._LV05(Member
+  State_AVG SURF)
+type: symbol
+source: esri
+source-layer: BNDA_CTY_ANNO_L05_POINT
+minzoom: 4
+maxzoom: 5
+layout:
+  text-font:
+    - Open Sans Bold
+  text-size: 12
+  text-anchor: left
+  text-offset:
+    - 0.111111
+    - -0.5
+  text-letter-spacing: 0.2
+  text-justify: left
+  text-field: '{_name14}'
+  text-allow-overlap: true
+  text-optional: true
+paint:
+  text-color: '#636566'
+  text-halo-color: rgba(255,255,255,0.5)
+  text-halo-width: 1

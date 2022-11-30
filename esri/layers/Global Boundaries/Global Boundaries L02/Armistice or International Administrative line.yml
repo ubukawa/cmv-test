@@ -1,0 +1,21 @@
+id: >-
+  Global Boundaries/Global Boundaries L02/Armistice or International
+  Administrative line
+type: line
+source: esri
+source-layer: Global Boundaries L02
+filter:
+  - '=='
+  - _symbol
+  - 2
+minzoom: 1
+maxzoom: 2
+layout:
+  line-join: round
+paint:
+  line-color: '#737C80'
+  line-dasharray:
+    - 8
+    - 5
+  line-width: 0.293333
+  line-opacity: 0.9

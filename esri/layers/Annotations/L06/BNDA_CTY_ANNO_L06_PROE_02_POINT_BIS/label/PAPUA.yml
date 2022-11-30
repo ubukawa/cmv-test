@@ -1,0 +1,20 @@
+id: Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT_BIS/label/PAPUA
+type: symbol
+source: esri
+source-layer: BNDA_CTY_ANNO_L06_PROE_02_POINT_BIS
+minzoom: 5
+maxzoom: 5.89
+layout:
+  text-font:
+    - Open Sans Bold
+  text-size: 14.6667
+  text-anchor: center
+  text-letter-spacing: 0.6
+  text-max-width: 50
+  text-field: '{_name11}'
+  text-allow-overlap: true
+  text-optional: true
+paint:
+  text-color: '#575859'
+  text-halo-color: rgba(255,255,255,0.5)
+  text-halo-width: 1

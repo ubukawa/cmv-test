@@ -1,0 +1,16 @@
+id: DRAL Features/DRAL10_L06/3
+type: line
+source: esri
+source-layer: DRAL10_L06
+filter:
+  - '=='
+  - _symbol
+  - 1
+minzoom: 5
+maxzoom: 5.89
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: rgba(157,189,209,0.7)
+  line-width: 0.5

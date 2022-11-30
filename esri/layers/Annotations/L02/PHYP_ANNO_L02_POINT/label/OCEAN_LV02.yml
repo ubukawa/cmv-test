@@ -1,0 +1,20 @@
+id: Annotations/L02/PHYP_ANNO_L02_POINT/label/OCEAN_LV02
+type: symbol
+source: esri
+source-layer: PHYP_ANNO_L02_POINT
+minzoom: 1
+maxzoom: 2
+layout:
+  text-font:
+    - Open Sans Semibold Italic
+  text-size: 10
+  text-max-width: 15
+  text-anchor: center
+  text-letter-spacing: 0.3
+  text-field: '{_name}'
+  text-allow-overlap: true
+  text-optional: true
+paint:
+  text-color: '#5F93B8'
+  text-halo-color: rgba(225,235,240,0.5)
+  text-halo-width: 0.466667

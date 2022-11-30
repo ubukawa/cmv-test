@@ -1,0 +1,19 @@
+id: Global Boundaries/Global Boundaries L02/Other line of Separation
+type: symbol
+source: esri
+source-layer: Global Boundaries L02
+filter:
+  - '=='
+  - _symbol
+  - 3
+minzoom: 1
+maxzoom: 2
+layout:
+  symbol-placement: line
+  icon-image: Global Boundaries/Global Boundaries L02/Other line of Separation
+  symbol-spacing: 1.77778
+  icon-rotation-alignment: map
+  icon-allow-overlap: true
+paint:
+  icon-color: '#737B80'
+  icon-opacity: 0.9

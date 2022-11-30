@@ -1,0 +1,20 @@
+id: Annotations/L05/PHYP_ANNO_L05_PROE_02_POINT_/label/Ocean_1LINE_LV05
+type: symbol
+source: esri
+source-layer: PHYP_ANNO_L05_PROE_02_POINT_
+minzoom: 4
+maxzoom: 5
+layout:
+  text-font:
+    - Open Sans Semibold Italic
+  text-size: 18.6667
+  text-anchor: center
+  text-max-width: 60
+  text-letter-spacing: 1
+  text-field: '{_name7}'
+  text-allow-overlap: true
+  text-optional: true
+paint:
+  text-color: '#6094BF'
+  text-halo-color: rgba(206,228,242,0.5)
+  text-halo-width: 1

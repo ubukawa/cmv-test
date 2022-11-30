@@ -1,0 +1,19 @@
+id: Annotations/L03/PHYP_ANNO_L03_POINT/label/Gulfs and Bays LV03
+type: symbol
+source: esri
+source-layer: PHYP_ANNO_L03_POINT
+minzoom: 2
+maxzoom: 3
+layout:
+  text-font:
+    - Open Sans Semibold Italic
+  text-size: 9.33333
+  text-anchor: center
+  text-letter-spacing: 0.3
+  text-field: '{_name1}'
+  text-allow-overlap: true
+  text-optional: true
+paint:
+  text-color: '#629BC4'
+  text-halo-color: rgba(235,241,245,0.6)
+  text-halo-width: 0.733333

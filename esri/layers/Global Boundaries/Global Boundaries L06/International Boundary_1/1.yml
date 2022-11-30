@@ -1,0 +1,16 @@
+id: Global Boundaries/Global Boundaries L06/International Boundary_1/1
+type: line
+source: esri
+source-layer: Global Boundaries L06
+filter:
+  - '=='
+  - _symbol
+  - 0
+minzoom: 5
+maxzoom: 5
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: rgba(230,230,223,0.65)
+  line-width: 3.66667

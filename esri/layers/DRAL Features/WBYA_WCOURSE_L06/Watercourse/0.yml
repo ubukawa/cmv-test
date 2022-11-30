@@ -1,0 +1,13 @@
+id: DRAL Features/WBYA_WCOURSE_L06/Watercourse/0
+type: fill
+source: esri
+source-layer: WBYA_WCOURSE_L06
+filter:
+  - '=='
+  - _symbol
+  - 0
+minzoom: 5
+maxzoom: 5.89
+layout: {}
+paint:
+  fill-color: '#DFEFF7'

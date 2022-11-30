@@ -1,0 +1,19 @@
+id: Annotations/L03/PHYP_ANNO_L03_POINT/label/Sea LV03
+type: symbol
+source: esri
+source-layer: PHYP_ANNO_L03_POINT
+minzoom: 2
+maxzoom: 3
+layout:
+  text-font:
+    - Open Sans Semibold Italic
+  text-size: 8.66667
+  text-anchor: center
+  text-letter-spacing: 0.3
+  text-field: '{_name2}'
+  text-allow-overlap: true
+  text-optional: true
+paint:
+  text-color: '#639CC7'
+  text-halo-color: rgba(235,241,245,0.6)
+  text-halo-width: 0.466667

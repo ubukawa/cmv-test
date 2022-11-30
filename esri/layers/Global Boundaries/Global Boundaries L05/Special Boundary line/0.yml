@@ -1,0 +1,18 @@
+id: Global Boundaries/Global Boundaries L05/Special Boundary line/0
+type: line
+source: esri
+source-layer: Global Boundaries L05
+filter:
+  - '=='
+  - _symbol
+  - 1
+minzoom: 5
+maxzoom: 5
+layout:
+  line-join: round
+paint:
+  line-color: '#454A4C'
+  line-dasharray:
+    - 6.65
+    - 3
+  line-width: 1.33333

@@ -1,0 +1,9 @@
+id: Base Layers/Ocean/Ocean_L04-L06
+type: fill
+source: esri
+source-layer: Ocean_L04-L06
+minzoom: 3
+maxzoom: 5.89
+layout: {}
+paint:
+  fill-color: '#D5EBF5'

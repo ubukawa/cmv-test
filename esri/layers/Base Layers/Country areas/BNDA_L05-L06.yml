@@ -1,0 +1,9 @@
+id: Base Layers/Country areas/BNDA_L05-L06
+type: fill
+source: esri
+source-layer: BNDA_L05-L06
+minzoom: 4
+maxzoom: 5.89
+layout: {}
+paint:
+  fill-color: '#F7F7F5'

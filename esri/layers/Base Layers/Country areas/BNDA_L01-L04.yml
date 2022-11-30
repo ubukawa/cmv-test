@@ -1,0 +1,8 @@
+id: Base Layers/Country areas/BNDA_L01-L04
+type: fill
+source: esri
+source-layer: BNDA_L01-L04
+maxzoom: 4
+layout: {}
+paint:
+  fill-color: '#FCFCFA'
