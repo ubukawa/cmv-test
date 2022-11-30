@@ -1,3 +1,12 @@
+### need to add a filter 
+filter:
+- match
+- - get
+  - _name
+- Abū Ⱬhaby (Abu Dhabi)
+- false
+- true
+### until here
 id: POPULATED PLACES/POPP_CTY_ANNO_L06_POINT/label/POPP_LV06
 type: symbol
 source: esri

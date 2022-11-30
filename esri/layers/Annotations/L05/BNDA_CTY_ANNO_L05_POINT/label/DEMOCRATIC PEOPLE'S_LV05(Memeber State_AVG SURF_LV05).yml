@@ -10,7 +10,7 @@ layout:
   text-font:
     - Open Sans Bold
   text-size: 12
-  text-max-width: '30'
+  text-max-width: 30
   text-anchor: left
   text-justify: left
   text-letter-spacing: 0.2

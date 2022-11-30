@@ -1,6 +1,6 @@
 version: 8
-sprite: ../sprites/sprite
-glyphs: ../fonts/{fontstack}/{range}.pbf
+sprite: https://pro-ags2.dfs.un.org/arcgis/rest/services/Hosted/Clearmap_Webplain/VectorTileServer/resources/sprites/sprite
+glyphs: https://pro-ags2.dfs.un.org/arcgis/rest/services/Hosted/Clearmap_Webplain/VectorTileServer/resources//fonts/{fontstack}/{range}.pbf
 sources:
   esri:
     type: vector
@@ -13,658 +13,233 @@ sources:
     minzoom: 0
     maxzoom: 19
     scheme: xyz
-    url: ../..
+    tiles:
+    - https://pro-ags2.dfs.un.org/arcgis/rest/services/Hosted/Clearmap_Webplain/VectorTileServer/tile/{z}/{y}/{x}.pbf
 layers:
-  - !!inc/file layers/Base Layers/Ocean/Ocean_L0-L03.yml
-  - !!inc/file layers/Base Layers/Ocean/Ocean_L04-L06.yml
-  - !!inc/file layers/Base Layers/Country areas/BNDA_L05-L06.yml
-  - !!inc/file layers/Base Layers/Country areas/BNDA_L01-L04.yml
-  - !!inc/file layers/Base Layers/Urban areas.yml
-  - !!inc/file layers/Base Layers/Coastline/Coastline_L01-L04.yml
-  - !!inc/file layers/Base Layers/Coastline/Coastline_L05-L06.yml
-  - !!inc/file layers/DRAL Features/WBYA_WCOURSE_L06/Watercourse/1.yml
-  - !!inc/file layers/DRAL Features/WBYA_WCOURSE_L06/Watercourse/0.yml
-  - !!inc/file layers/DRAL Features/DRAL10_L06/1.yml
-  - !!inc/file layers/DRAL Features/DRAL10_L06/3.yml
-  - !!inc/file layers/DRAL Features/DRAL10_L05/1.yml
-  - !!inc/file layers/DRAL Features/DRAL10_L05/3.yml
-  - !!inc/file layers/DRAL Features/DRAL10_L04/1.yml
-  - !!inc/file layers/DRAL Features/DRAL10_L04/3.yml
-  - !!inc/file layers/Global Boundaries/AUTONOMOUS_BNDL_L06/1.yml
-  - !!inc/file layers/Global Boundaries/AUTONOMOUS_BNDL_L06/0.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L06/International
-    Boundary/1.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L06/International
-    Boundary_1/1.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L06/Special Boundary
-    line/1.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L06/Special Boundary
-    line_1/1.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L06/Armistice or
-    International Administrative line/1.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L06/Armistice or
-    International Administrative line_1/1.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L06/Other line of
-    Separation/1.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L06/Other line of
-    Separation_1/1.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L06/Special Boundary
-    line/0.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L06/Special Boundary
-    line_1/0.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L06/Armistice or
-    International Administrative line/0.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L06/Other line of
-    Separation/0.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L06/Other line of
-    Separation_1/0.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L06/International
-    Boundary/0.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L06/International
-    Boundary_1/0.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L05/International
-    Boundary/1.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L05/International
-    Boundary_1/1.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L05/Special Boundary
-    line/1.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L05/Special Boundary
-    line_1/1.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L05/Armistice or
-    International Administrative line/1.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L05/Armistice or
-    International Administrative line_1/1.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L05/Other line of
-    Separation/1.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L05/Other line of
-    Separation_1/1.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L05/Special Boundary
-    line/0.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L05/Special Boundary
-    line_1/0.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L05/Armistice or
-    International Administrative line/0.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L05/Armistice or
-    International Administrative line_1/0.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L05/Other line of
-    Separation/0.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L05/Other line of
-    Separation_1/0.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L05/International
-    Boundary/0.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L05/International
-    Boundary_1/0.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L04/International
-    Boundary.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L04/Special Boundary
-    line.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L04/Armistice or
-    International Administrative line.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L04/Other line of
-    Separation.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L03/International
-    Boundary.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L03/Special Boundary
-    line.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L03/Armistice or
-    International Administrative line.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L03/Other line of
-    Separation.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L02/International
-    Boundary.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L02/Special Boundary
-    line.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L02/Armistice or
-    International Administrative line.yml
-  - >-
-    !!inc/file layers/Global Boundaries/Global Boundaries L02/Other line of
-    Separation.yml
-  - !!inc/file layers/WBYA Features/WBYA_L06/1.yml
-  - !!inc/file layers/WBYA Features/WBYA_L06/0.yml
-  - !!inc/file layers/WBYA Features/WBYA10_L05/1.yml
-  - !!inc/file layers/WBYA Features/WBYA10_L05/0.yml
-  - !!inc/file layers/WBYA Features/WBYA10_L04/1.yml
-  - !!inc/file layers/WBYA Features/WBYA10_L04/0.yml
-  - !!inc/file layers/WBYA Features/WBYA10_L02-L03/1.yml
-  - !!inc/file layers/WBYA Features/WBYA10_L02-L03/0.yml
-  - !!inc/file layers/WBYA Features/WBYA10_L01/1.yml
-  - !!inc/file layers/WBYA Features/WBYA10_L01/0.yml
-  - >-
-    !!inc/file layers/POPULATED PLACES/Populated Places_SYMBOLS/National
-    Capital.yml
-  - >-
-    !!inc/file layers/POPULATED PLACES/Populated Places_SYMBOLS/Alternative
-    capital.yml
-  - >-
-    !!inc/file layers/POPULATED PLACES/Populated Places_SYMBOLS/Territorial
-    capital.yml
-  - >-
-    !!inc/file layers/POPULATED PLACES/POPP_CTY_ANNO_L06_POINT/label/L06 - ABU
-    DHABI.yml
-  - >-
-    !!inc/file layers/POPULATED
-    PLACES/POPP_CTY_ANNO_L06_POINT/label/POPP_LV06.yml
-  - >-
-    !!inc/file layers/POPULATED PLACES/POPP_CTY_ANNO_L05_POINT/label/L05 - ABU
-    DHABI.yml
-  - >-
-    !!inc/file layers/POPULATED
-    PLACES/POPP_CTY_ANNO_L05_POINT/label/POPP_LV05.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/MALAYSIA_LV06(Memeber
-    State_AVG SURF_LV06).yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/TAIWAN_LV05(Special
-    Region_LV06).yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/EQUATORIAL
-    GUINEA_LV06(Memeber State_AVG SURF_LV06).yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Memeber
-    State_AVG SURF_2LINE_LV06.yml
-  - >-
-    !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Non
-    Self. Gov. + Sovreignity Unsettled_1LINE_LV06.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Memeber
-    State_AVG SURF_NCS_2LINE_LV06.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/SAINT VINCENT
-    AND THE GRENADINES_LV06(Member State_SMALL SURF_LV06).yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Self. Gov. +
-    Territories_1LINE_LV06.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/MONTSERRAT_LV06(Non
-    Self. Gov. + Sovreignity Unsettled_LV06).yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Member
-    State_SMALL SURF_1LINE_LV06.yml
-  - >-
-    !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Non
-    Self. Gov. + Sovreignity Unsettled_2LINE_LV06.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Memeber
-    State_AVG SURF_ADDITIONAL_1LINE_LV06.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Memeber
-    State_AVG SURF_ADDITIONAL_LV06.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Member
-    State_LARGE SURF_2LINE_LV06.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Self. Gov. +
-    Territories_2LINE_LV06.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/GREENLAND_LV06(Self.
-    Gov. + Territories_LV06).yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Autonomous
-    Region_LV06.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Special
-    Region_LV06.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Occupied
-    Palestinian_LV06.yml
-  - >-
-    !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Non
-    Self. Gov. + Sovreignity Unsettled_LV06.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/ANTARCTICA_LV06.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Member
-    State_SMALL SURF_LV06.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Self. Gov. +
-    Territories_LV06.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Member
-    State_LARGE SURF_LV06.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Memeber
-    State_AVG SURF_LV06.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/WBYA_ANNO_L06_PROE_02_POINT/label/Waterbodies_2LINE_LV06.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/WBYA_ANNO_L06_PROE_02_POINT/label/Waterbodies_LV06.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/PHYP_ANNO_L06_PROE_02_POINT/label/Ocean_1LINE_LV06.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/PHYP_ANNO_L06_PROE_02_POINT/label/Island_2LINE_LV06.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/PHYP_ANNO_L06_PROE_02_POINT/label/Sea_2LINE_LV06.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/PHYP_ANNO_L06_PROE_02_POINT/label/Islands_1LINE_LV06.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/PHYP_ANNO_L06_PROE_02_POINT/label/Islands_LV06.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/PHYP_ANNO_L06_PROE_02_POINT/label/Mediterranean_LV06.yml
-  - >-
-    !!inc/file layers/Annotations/L06/PHYP_ANNO_L06_PROE_02_POINT/label/Minor
-    Sea_LV06.yml
-  - >-
-    !!inc/file layers/Annotations/L06/PHYP_ANNO_L06_PROE_02_POINT/label/Gulfs
-    and Bays_LV06.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/PHYP_ANNO_L06_PROE_02_POINT/label/Sea_LV06.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/PHYP_ANNO_L06_PROE_02_POINT/label/Ocean_LV06.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT_BIS/label/MICRONESIA.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT_BIS/label/PAPUA.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT_BIS/label/MALAYSIA.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT_BIS/label/CHILE.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT_BIS/label/BOLIVIA.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT_BIS/label/TAIWAN.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT_BIS/label/Non Self.
-    Gov. + Sovreignity Unsettled_1line.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT_BIS/label/Member
-    States AVG Surface 1 line.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT_BIS/label/TANZANIA.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT_BIS/label/Member
-    States Small Surface 1 Line.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT_BIS/label/EQUATORIAL
-    GUINEA.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT_BIS/label/DEMOCRATIC
-    REPUBLIC OF CONGO.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT_BIS/label/CENTRAL
-    AFRICA REPUBLIC.yml
-  - >-
-    !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/DEMOCRATIC
-    PEOPLE'S_LV05(Memeber State_AVG SURF_LV05).yml
-  - >-
-    !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/Memeber
-    State_AVG SURF_1LINE_LV05.yml
-  - >-
-    !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/UNITED
-    KINGDOM_LV05(Memeber State_AVG SURF_LV05).yml
-  - >-
-    !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/TURKS AND
-    CAICOS ISLANDS_LV05(Non Self. Gov. + Sovreignity Unsettled_LV05).yml
-  - >-
-    !!inc/file
-    layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/BRUNEI_LV05(Member
-    State_SMALL SURF_LV05).yml
-  - >-
-    !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/HOLY
-    SEE_LV05(Member State_SMALL SURF_LV05).yml
-  - >-
-    !!inc/file
-    layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/BOSNIA_LV05(Memeber
-    State_AVG SURF_LV05).yml
-  - >-
-    !!inc/file
-    layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/TAIWAN_LV05(Special
-    Region_LV05).yml
-  - >-
-    !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/PAPUA NEW
-    GUINEA_LV05(Memeber State_AVG SURF_LV05).yml
-  - >-
-    !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/Special
-    Region_1LINE_LV05.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/MICRONESIA_LV05_(Member
-    State_SMALL SURF_LV05).yml
-  - >-
-    !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/Self. Gov. +
-    Territories_2LINE_LV05.yml
-  - >-
-    !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/EQUATORIAL
-    GUINEA_LV05)(Memeber State_AVG SURF_LV05).yml
-  - >-
-    !!inc/file
-    layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/ARUBA_CURACAO_BONAIRE_LV05(Self.
-    Gov. + Territories_LV05).yml
-  - >-
-    !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/Member
-    State_SMALL SURF_1LINE_LV5.yml
-  - >-
-    !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/DOMINICA
-    REP._LV05(Member State_AVG SURF).yml
-  - >-
-    !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/Non Self.
-    Gov. + Sovreignity Unsettled_2LINE_LV05.yml
-  - >-
-    !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/Member
-    State_LARGE SURF_1LINE_LV5.yml
-  - >-
-    !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/Non Self.
-    Gov. + Sovreignity Unsettled_1LINE_LV05.yml
-  - >-
-    !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/FAROE
-    ISLANDS_LV05(Self. Gov. + Territories_LV05).yml
-  - >-
-    !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/SVAKBARD &
-    JAN MAYEN IS_LV05(Self. Gov. + Territories_1LINE_LV05).yml
-  - >-
-    !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/Self. Gov. +
-    Territories_1LINE_LV05.yml
-  - >-
-    !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/Special
-    Region_LV05.yml
-  - >-
-    !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/Occupied
-    Palestinian_LV05.yml
-  - >-
-    !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/Non Self.
-    Gov. + Sovreignity Unsettled_LV05.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/ANTARCTICA_LV05.yml
-  - >-
-    !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/Member
-    State_SMALL SURF_LV05.yml
-  - >-
-    !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/Self. Gov. +
-    Territories_LV05.yml
-  - >-
-    !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/Member
-    State_LARGE SURF_LV05.yml
-  - >-
-    !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/Memeber
-    State_AVG SURF_LV05.yml
-  - >-
-    !!inc/file layers/Annotations/L05/WBYA_ANNO_L05_PROE_02_POINT/label/Water
-    Bodies_LV05.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L05/PHYP_ANNO_L05_PROE_02_POINT_/label/Sea_1LINE_LV05.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L05/PHYP_ANNO_L05_PROE_02_POINT_/label/Ocean_1LINE_LV05.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L05/PHYP_ANNO_L05_PROE_02_POINT_/label/Islands_2LINE_LV04.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L05/PHYP_ANNO_L05_PROE_02_POINT_/label/Islands_1LINE_LV04.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L05/PHYP_ANNO_L05_PROE_02_POINT_/label/Islands_LV04.yml
-  - >-
-    !!inc/file layers/Annotations/L05/PHYP_ANNO_L05_PROE_02_POINT_/label/Gulfs
-    and Bays_LV05.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L05/PHYP_ANNO_L05_PROE_02_POINT_/label/Mediterranean_LV05.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L05/PHYP_ANNO_L05_PROE_02_POINT_/label/Sea_LV05.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L05/PHYP_ANNO_L05_PROE_02_POINT_/label/Ocean_LV05.yml
-  - >-
-    !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/SOUTH
-    GEORGIA_LV04(Self. Gov. + Territories_LV04).yml
-  - >-
-    !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/MARSHAL
-    ISLANDS_LV04(Member State_SMALL SURF_LV04).yml
-  - >-
-    !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/SAINT
-    HELENA_LV04(Non Self. Gov. + Sovreignity Unsettled_LV04).yml
-  - >-
-    !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/HEARD ISL &
-    MC DONALD IS_LV04(Self. Gov. + Territories_LV04).yml
-  - >-
-    !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/NORTHERN
-    MARIANA IS._LV04(Self. Gov. + Territories_LV04).yml
-  - >-
-    !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/BRUNEI
-    DARUSSALAM_LV04(Memeber State_SMALL SURF_LV04).yml
-  - >-
-    !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/PAPUA NEW
-    GUINEA_LV04(Memeber State_AVG SURF_LV04).yml
-  - >-
-    !!inc/file
-    layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/MALAYSIA_LV04(Memeber
-    State_AVG SURF_LV04).yml
-  - >-
-    !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/DEM PEOPLE'S
-    REP. OF KOREA_LV04(Memeber State_AVG SURF_LV04).yml
-  - >-
-    !!inc/file
-    layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/IRAN_LV04(Memeber
-    State_AVG SURF_LV04).yml
-  - >-
-    !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/EQUATORIAL
-    GUINEA_LV04(Memeber State_AVG SURF_LV04).yml
-  - >-
-    !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/Memeber
-    State_AVG SURF_1 LINE_LV04.yml
-  - >-
-    !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/SYRIAN ARAB
-    REP._LV04(Memeber State_AVG SURF_LV04).yml
-  - >-
-    !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/BOSNIA AND
-    HERZEGOVINA_LV04(Memeber State_AVG SURF).yml
-  - >-
-    !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/Non Self.
-    Gov. + Sovreignity Unsettled_1LINE_LV04.yml
-  - >-
-    !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/Self. Gov. +
-    Territories_1 LINE_LV04.yml
-  - >-
-    !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/Member
-    State_SMALL SURF_1 LINE_LV04.yml
-  - >-
-    !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/DOMINICA
-    REP._LV04(Member State_AVG SURF).yml
-  - >-
-    !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/Self. Gov. +
-    Territories_2 LINE_LV04.yml
-  - >-
-    !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/Non Self.
-    Gov. + Sovreignity Unsettled_LV04.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/ANTARCTICA_LV04.yml
-  - >-
-    !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/Member
-    State_SMALL SURF_LV04.yml
-  - >-
-    !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/Self. Gov. +
-    Territories_LV04.yml
-  - >-
-    !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/Member
-    State_LARGE SURF_LV04.yml
-  - >-
-    !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/Memeber
-    State_AVG SURF_LV04.yml
-  - >-
-    !!inc/file layers/Annotations/L04/PHYP_ANNO_L04_POINT/label/DUMONT
-    SEA_LV02(Sea_LV04).yml
-  - >-
-    !!inc/file
-    layers/Annotations/L04/PHYP_ANNO_L04_POINT/label/Ocean_1LINE_LV04.yml
-  - >-
-    !!inc/file layers/Annotations/L04/PHYP_ANNO_L04_POINT/label/Sea_1
-    LINE_LV04.yml
-  - >-
-    !!inc/file layers/Annotations/L04/PHYP_ANNO_L04_POINT/label/Gulfs and Bays
-    LV04.yml
-  - !!inc/file layers/Annotations/L04/PHYP_ANNO_L04_POINT/label/Sea LV04.yml
-  - !!inc/file layers/Annotations/L04/PHYP_ANNO_L04_POINT/label/Ocean LV04.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/MOLDOVA_LV03(Member
-    state small surface LV03).yml
-  - >-
-    !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/NEW
-    CALEDONIA_LV03(Non Self. Gov. + Sovreignity Unsettled_LV03).yml
-  - >-
-    !!inc/file
-    layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/MICRONESIA_LV03(Member
-    State_SMALL SURF_LV03).yml
-  - >-
-    !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/SOUTH
-    GEORGIA_LV03(Self Gov + Territories_LV03).yml
-  - >-
-    !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/Svalbard &
-    Jan Mayen Is. (Norw.)_LV03(Self Gov + Territories_LV03).yml
-  - >-
-    !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/FRENCH
-    GUIANA_LV03(Self Gov + Territories_LV03).yml
-  - >-
-    !!inc/file
-    layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/GREENLAND_LV03(Self Gov
-    + Territories_LV03).yml
-  - >-
-    !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/Self Gov +
-    Territories_LV03.yml
-  - >-
-    !!inc/file
-    layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/Antarctica_LV03.yml
-  - >-
-    !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/DOMINICA
-    REP._LV03(Member State_SMALL SURF).yml
-  - >-
-    !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/Member
-    State_SMALL SURF_1 LINE_LV03.yml
-  - >-
-    !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/Member
-    State_SMALL SURF_LV03.yml
-  - >-
-    !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/Non Self.
-    Gov. + Sovreignity Unsettled_1LINE_LV03.yml
-  - >-
-    !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/Non Self.
-    Gov. + Sovreignity Unsettled_LV03.yml
-  - >-
-    !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/UNITED
-    STATES OF AMERICA_LV03(Member State_LARGE SURF).yml
-  - >-
-    !!inc/file
-    layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/INDONESIA_LV03(Memeber
-    State_AVG SURF).yml
-  - >-
-    !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/Member
-    State_LARGE SURF_LV03.yml
-  - >-
-    !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/Member
-    State_AVG SURF_1 LINE_LV03.yml
-  - >-
-    !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/Member
-    State_AVG SURF_2 LINE_LV03.yml
-  - >-
-    !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/Memeber
-    State_AVG SURF_LV03.yml
-  - >-
-    !!inc/file layers/Annotations/L03/PHYP_ANNO_L03_POINT/label/SOUTHERN
-    OCEAN_LV03(Ocean_LV03).yml
-  - >-
-    !!inc/file layers/Annotations/L03/PHYP_ANNO_L03_POINT/label/NORTH ATLANTIC
-    OCEAN_LV03(Ocean_LV03).yml
-  - >-
-    !!inc/file layers/Annotations/L03/PHYP_ANNO_L03_POINT/label/Black Sea_LV03
-    (Sea).yml
-  - !!inc/file layers/Annotations/L03/PHYP_ANNO_L03_POINT/label/Sea LV03.yml
-  - >-
-    !!inc/file layers/Annotations/L03/PHYP_ANNO_L03_POINT/label/Gulfs and Bays
-    LV03.yml
-  - !!inc/file layers/Annotations/L03/PHYP_ANNO_L03_POINT/label/Ocean LV03.yml
-  - >-
-    !!inc/file layers/Annotations/L02/PHYP_ANNO_L02_POINT/label/SOUTERN
-    OCEAN_LV02(OCEAN_LV02).yml
-  - !!inc/file layers/Annotations/L02/PHYP_ANNO_L02_POINT/label/OCEAN_LV02.yml
+   - !!inc/file layers/Base Layers/Ocean/Ocean_L0-L03.yml
+   - !!inc/file layers/Base Layers/Ocean/Ocean_L04-L06.yml
+   - !!inc/file layers/Base Layers/Country areas/BNDA_L05-L06.yml
+   - !!inc/file layers/Base Layers/Country areas/BNDA_L01-L04.yml
+   - !!inc/file layers/Base Layers/Urban areas.yml
+   - !!inc/file layers/Base Layers/Coastline/Coastline_L01-L04.yml
+   - !!inc/file layers/Base Layers/Coastline/Coastline_L05-L06.yml
+   - !!inc/file layers/DRAL Features/WBYA_WCOURSE_L06/Watercourse/1.yml
+   - !!inc/file layers/DRAL Features/WBYA_WCOURSE_L06/Watercourse/0.yml
+   - !!inc/file layers/DRAL Features/DRAL10_L06/1.yml
+   - !!inc/file layers/DRAL Features/DRAL10_L06/3.yml
+   - !!inc/file layers/DRAL Features/DRAL10_L05/1.yml
+   - !!inc/file layers/DRAL Features/DRAL10_L05/3.yml
+   - !!inc/file layers/DRAL Features/DRAL10_L04/1.yml
+   - !!inc/file layers/DRAL Features/DRAL10_L04/3.yml
+   - !!inc/file layers/Global Boundaries/AUTONOMOUS_BNDL_L06/1.yml
+   - !!inc/file layers/Global Boundaries/AUTONOMOUS_BNDL_L06/0.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L06/International Boundary/1.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L06/International Boundary_1/1.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L06/Special Boundary line/1.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L06/Special Boundary line_1/1.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L06/Armistice or International Administrative line/1.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L06/Armistice or International Administrative line_1/1.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L06/Other line of Separation/1.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L06/Other line of Separation_1/1.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L06/Special Boundary line/0.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L06/Special Boundary line_1/0.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L06/Armistice or International Administrative line/0.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L06/Other line of Separation/0.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L06/Other line of Separation_1/0.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L06/International Boundary/0.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L06/International Boundary_1/0.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L05/International Boundary/1.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L05/International Boundary_1/1.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L05/Special Boundary line/1.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L05/Special Boundary line_1/1.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L05/Armistice or International Administrative line/1.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L05/Armistice or International Administrative line_1/1.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L05/Other line of Separation/1.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L05/Other line of Separation_1/1.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L05/Special Boundary line/0.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L05/Special Boundary line_1/0.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L05/Armistice or International Administrative line/0.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L05/Armistice or International Administrative line_1/0.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L05/Other line of Separation/0.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L05/Other line of Separation_1/0.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L05/International Boundary/0.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L05/International Boundary_1/0.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L04/International Boundary.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L04/Special Boundary line.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L04/Armistice or International Administrative line.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L04/Other line of Separation.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L03/International Boundary.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L03/Special Boundary line.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L03/Armistice or International Administrative line.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L03/Other line of Separation.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L02/International Boundary.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L02/Special Boundary line.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L02/Armistice or International Administrative line.yml
+   - !!inc/file layers/Global Boundaries/Global Boundaries L02/Other line of Separation.yml
+   - !!inc/file layers/WBYA Features/WBYA_L06/1.yml
+   - !!inc/file layers/WBYA Features/WBYA_L06/0.yml
+   - !!inc/file layers/WBYA Features/WBYA10_L05/1.yml
+   - !!inc/file layers/WBYA Features/WBYA10_L05/0.yml
+   - !!inc/file layers/WBYA Features/WBYA10_L04/1.yml
+   - !!inc/file layers/WBYA Features/WBYA10_L04/0.yml
+   - !!inc/file layers/WBYA Features/WBYA10_L02-L03/1.yml
+   - !!inc/file layers/WBYA Features/WBYA10_L02-L03/0.yml
+   - !!inc/file layers/WBYA Features/WBYA10_L01/1.yml
+   - !!inc/file layers/WBYA Features/WBYA10_L01/0.yml
+   - !!inc/file layers/POPULATED PLACES/Populated Places_SYMBOLS/National Capital.yml
+   - !!inc/file layers/POPULATED PLACES/Populated Places_SYMBOLS/Alternative capital.yml
+   - !!inc/file layers/POPULATED PLACES/Populated Places_SYMBOLS/Territorial capital.yml
+   - !!inc/file layers/POPULATED PLACES/POPP_CTY_ANNO_L06_POINT/label/L06 - ABU DHABI.yml
+   - !!inc/file layers/POPULATED PLACES/POPP_CTY_ANNO_L06_POINT/label/POPP_LV06.yml 
+   - !!inc/file layers/POPULATED PLACES/POPP_CTY_ANNO_L05_POINT/label/L05 - ABU DHABI.yml
+   - !!inc/file layers/POPULATED PLACES/POPP_CTY_ANNO_L05_POINT/label/POPP_LV05.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/MALAYSIA_LV06(Memeber State_AVG SURF_LV06).yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/TAIWAN_LV05(Special Region_LV06).yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/EQUATORIAL GUINEA_LV06(Memeber State_AVG SURF_LV06).yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Memeber State_AVG SURF_2LINE_LV06.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Non Self. Gov. + Sovreignity Unsettled_1LINE_LV06.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Memeber State_AVG SURF_NCS_2LINE_LV06.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/SAINT VINCENT AND THE GRENADINES_LV06(Member State_SMALL SURF_LV06).yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Self. Gov. + Territories_1LINE_LV06.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/MONTSERRAT_LV06(Non Self. Gov. + Sovreignity Unsettled_LV06).yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Member State_SMALL SURF_1LINE_LV06.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Non Self. Gov. + Sovreignity Unsettled_2LINE_LV06.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Memeber State_AVG SURF_ADDITIONAL_1LINE_LV06.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Memeber State_AVG SURF_ADDITIONAL_LV06.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Member State_LARGE SURF_2LINE_LV06.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Self. Gov. + Territories_2LINE_LV06.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/GREENLAND_LV06(Self. Gov. + Territories_LV06).yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Autonomous Region_LV06.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Special Region_LV06.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Occupied Palestinian_LV06.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Non Self. Gov. + Sovreignity Unsettled_LV06.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/ANTARCTICA_LV06.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Member State_SMALL SURF_LV06.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Self. Gov. + Territories_LV06.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Member State_LARGE SURF_LV06.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT/label/Memeber State_AVG SURF_LV06.yml
+   - !!inc/file layers/Annotations/L06/WBYA_ANNO_L06_PROE_02_POINT/label/Waterbodies_2LINE_LV06.yml
+   - !!inc/file layers/Annotations/L06/WBYA_ANNO_L06_PROE_02_POINT/label/Waterbodies_LV06.yml
+   - !!inc/file layers/Annotations/L06/PHYP_ANNO_L06_PROE_02_POINT/label/Ocean_1LINE_LV06.yml
+   - !!inc/file layers/Annotations/L06/PHYP_ANNO_L06_PROE_02_POINT/label/Island_2LINE_LV06.yml
+   - !!inc/file layers/Annotations/L06/PHYP_ANNO_L06_PROE_02_POINT/label/Sea_2LINE_LV06.yml
+   - !!inc/file layers/Annotations/L06/PHYP_ANNO_L06_PROE_02_POINT/label/Islands_1LINE_LV06.yml
+   - !!inc/file layers/Annotations/L06/PHYP_ANNO_L06_PROE_02_POINT/label/Islands_LV06.yml
+   - !!inc/file layers/Annotations/L06/PHYP_ANNO_L06_PROE_02_POINT/label/Mediterranean_LV06.yml
+   - !!inc/file layers/Annotations/L06/PHYP_ANNO_L06_PROE_02_POINT/label/Minor Sea_LV06.yml
+   - !!inc/file layers/Annotations/L06/PHYP_ANNO_L06_PROE_02_POINT/label/Gulfs and Bays_LV06.yml
+   - !!inc/file layers/Annotations/L06/PHYP_ANNO_L06_PROE_02_POINT/label/Sea_LV06.yml
+   - !!inc/file layers/Annotations/L06/PHYP_ANNO_L06_PROE_02_POINT/label/Ocean_LV06.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT_BIS/label/MICRONESIA.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT_BIS/label/PAPUA.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT_BIS/label/MALAYSIA.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT_BIS/label/CHILE.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT_BIS/label/BOLIVIA.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT_BIS/label/TAIWAN.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT_BIS/label/Non Self. Gov. + Sovreignity Unsettled_1line.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT_BIS/label/Member States AVG Surface 1 line.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT_BIS/label/TANZANIA.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT_BIS/label/Member States Small Surface 1 Line.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT_BIS/label/EQUATORIAL GUINEA.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT_BIS/label/DEMOCRATIC REPUBLIC OF CONGO.yml
+   - !!inc/file layers/Annotations/L06/BNDA_CTY_ANNO_L06_PROE_02_POINT_BIS/label/CENTRAL AFRICA REPUBLIC.yml
+   - !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/DEMOCRATIC PEOPLE'S_LV05(Memeber State_AVG SURF_LV05).yml
+   - !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/Memeber State_AVG SURF_1LINE_LV05.yml
+   - !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/UNITED KINGDOM_LV05(Memeber State_AVG SURF_LV05).yml
+   - !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/TURKS AND CAICOS ISLANDS_LV05(Non Self. Gov. + Sovreignity Unsettled_LV05).yml
+   - !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/BRUNEI_LV05(Member State_SMALL SURF_LV05).yml
+   - !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/HOLY SEE_LV05(Member State_SMALL SURF_LV05).yml
+   - !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/BOSNIA_LV05(Memeber State_AVG SURF_LV05).yml
+   - !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/TAIWAN_LV05(Special Region_LV05).yml
+   - !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/PAPUA NEW GUINEA_LV05(Memeber State_AVG SURF_LV05).yml
+   - !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/Special Region_1LINE_LV05.yml
+   - !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/MICRONESIA_LV05_(Member State_SMALL SURF_LV05).yml
+   - !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/Self. Gov. + Territories_2LINE_LV05.yml
+   - !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/EQUATORIAL GUINEA_LV05)(Memeber State_AVG SURF_LV05).yml
+   - !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/ARUBA_CURACAO_BONAIRE_LV05(Self. Gov. + Territories_LV05).yml
+   - !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/Member State_SMALL SURF_1LINE_LV5.yml
+   - !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/DOMINICA REP._LV05(Member State_AVG SURF).yml
+   - !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/Non Self. Gov. + Sovreignity Unsettled_2LINE_LV05.yml
+   - !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/Member State_LARGE SURF_1LINE_LV5.yml
+   - !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/Non Self. Gov. + Sovreignity Unsettled_1LINE_LV05.yml
+   - !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/FAROE ISLANDS_LV05(Self. Gov. + Territories_LV05).yml
+   - !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/SVAKBARD & JAN MAYEN IS_LV05(Self. Gov. + Territories_1LINE_LV05).yml
+   - !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/Self. Gov. + Territories_1LINE_LV05.yml
+   - !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/Special Region_LV05.yml
+   - !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/Occupied Palestinian_LV05.yml
+   - !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/Non Self. Gov. + Sovreignity Unsettled_LV05.yml
+   - !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/ANTARCTICA_LV05.yml
+   - !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/Member State_SMALL SURF_LV05.yml
+   - !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/Self. Gov. + Territories_LV05.yml
+   - !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/Member State_LARGE SURF_LV05.yml
+   - !!inc/file layers/Annotations/L05/BNDA_CTY_ANNO_L05_POINT/label/Memeber State_AVG SURF_LV05.yml
+   - !!inc/file layers/Annotations/L05/WBYA_ANNO_L05_PROE_02_POINT/label/Water Bodies_LV05.yml
+   - !!inc/file layers/Annotations/L05/PHYP_ANNO_L05_PROE_02_POINT_/label/Sea_1LINE_LV05.yml
+   - !!inc/file layers/Annotations/L05/PHYP_ANNO_L05_PROE_02_POINT_/label/Ocean_1LINE_LV05.yml
+   - !!inc/file layers/Annotations/L05/PHYP_ANNO_L05_PROE_02_POINT_/label/Islands_2LINE_LV04.yml
+   - !!inc/file layers/Annotations/L05/PHYP_ANNO_L05_PROE_02_POINT_/label/Islands_1LINE_LV04.yml
+   - !!inc/file layers/Annotations/L05/PHYP_ANNO_L05_PROE_02_POINT_/label/Islands_LV04.yml
+   - !!inc/file layers/Annotations/L05/PHYP_ANNO_L05_PROE_02_POINT_/label/Gulfs and Bays_LV05.yml
+   - !!inc/file layers/Annotations/L05/PHYP_ANNO_L05_PROE_02_POINT_/label/Mediterranean_LV05.yml
+   - !!inc/file layers/Annotations/L05/PHYP_ANNO_L05_PROE_02_POINT_/label/Sea_LV05.yml
+   - !!inc/file layers/Annotations/L05/PHYP_ANNO_L05_PROE_02_POINT_/label/Ocean_LV05.yml
+   - !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/SOUTH GEORGIA_LV04(Self. Gov. + Territories_LV04).yml
+   - !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/MARSHAL ISLANDS_LV04(Member State_SMALL SURF_LV04).yml
+   - !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/SAINT HELENA_LV04(Non Self. Gov. + Sovreignity Unsettled_LV04).yml
+   - !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/HEARD ISL & MC DONALD IS_LV04(Self. Gov. + Territories_LV04).yml
+   - !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/NORTHERN MARIANA IS._LV04(Self. Gov. + Territories_LV04).yml
+   - !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/BRUNEI DARUSSALAM_LV04(Memeber State_SMALL SURF_LV04).yml
+   - !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/PAPUA NEW GUINEA_LV04(Memeber State_AVG SURF_LV04).yml
+   - !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/MALAYSIA_LV04(Memeber State_AVG SURF_LV04).yml
+   - !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/DEM PEOPLE'S REP. OF KOREA_LV04(Memeber State_AVG SURF_LV04).yml
+   - !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/IRAN_LV04(Memeber State_AVG SURF_LV04).yml
+   - !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/EQUATORIAL GUINEA_LV04(Memeber State_AVG SURF_LV04).yml
+   - !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/Memeber State_AVG SURF_1 LINE_LV04.yml
+   - !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/SYRIAN ARAB REP._LV04(Memeber State_AVG SURF_LV04).yml
+   - !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/BOSNIA AND HERZEGOVINA_LV04(Memeber State_AVG SURF).yml
+   - !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/Non Self. Gov. + Sovreignity Unsettled_1LINE_LV04.yml
+   - !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/Self. Gov. + Territories_1 LINE_LV04.yml
+   - !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/Member State_SMALL SURF_1 LINE_LV04.yml
+   - !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/DOMINICA REP._LV04(Member State_AVG SURF).yml
+   - !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/Self. Gov. + Territories_2 LINE_LV04.yml
+   - !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/Non Self. Gov. + Sovreignity Unsettled_LV04.yml
+   - !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/ANTARCTICA_LV04.yml
+   - !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/Member State_SMALL SURF_LV04.yml
+   - !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/Self. Gov. + Territories_LV04.yml
+   - !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/Member State_LARGE SURF_LV04.yml
+   - !!inc/file layers/Annotations/L04/BNDA_CTY_ANNO_L04_POINT/label/Memeber State_AVG SURF_LV04.yml
+   - !!inc/file layers/Annotations/L04/PHYP_ANNO_L04_POINT/label/DUMONT SEA_LV02(Sea_LV04).yml
+   - !!inc/file layers/Annotations/L04/PHYP_ANNO_L04_POINT/label/Ocean_1LINE_LV04.yml
+   - !!inc/file layers/Annotations/L04/PHYP_ANNO_L04_POINT/label/Sea_1 LINE_LV04.yml
+   - !!inc/file layers/Annotations/L04/PHYP_ANNO_L04_POINT/label/Gulfs and Bays LV04.yml
+   - !!inc/file layers/Annotations/L04/PHYP_ANNO_L04_POINT/label/Sea LV04.yml
+   - !!inc/file layers/Annotations/L04/PHYP_ANNO_L04_POINT/label/Ocean LV04.yml
+   - !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/MOLDOVA_LV03(Member state small surface LV03).yml
+   - !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/NEW CALEDONIA_LV03(Non Self. Gov. + Sovreignity Unsettled_LV03).yml
+   - !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/MICRONESIA_LV03(Member State_SMALL SURF_LV03).yml
+   - !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/SOUTH GEORGIA_LV03(Self Gov + Territories_LV03).yml
+   - !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/Svalbard & Jan Mayen Is. (Norw.)_LV03(Self Gov + Territories_LV03).yml
+   - !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/FRENCH GUIANA_LV03(Self Gov + Territories_LV03).yml
+   - !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/GREENLAND_LV03(Self Gov + Territories_LV03).yml
+   - !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/Self Gov + Territories_LV03.yml
+   - !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/Antarctica_LV03.yml
+   - !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/DOMINICA REP._LV03(Member State_SMALL SURF).yml
+   - !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/Member State_SMALL SURF_1 LINE_LV03.yml
+   - !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/Member State_SMALL SURF_LV03.yml
+   - !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/Non Self. Gov. + Sovreignity Unsettled_1LINE_LV03.yml
+   - !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/Non Self. Gov. + Sovreignity Unsettled_LV03.yml
+   - !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/UNITED STATES OF AMERICA_LV03(Member State_LARGE SURF).yml
+   - !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/INDONESIA_LV03(Memeber State_AVG SURF).yml
+   - !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/Member State_LARGE SURF_LV03.yml
+   - !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/Member State_AVG SURF_1 LINE_LV03.yml
+   - !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/Member State_AVG SURF_2 LINE_LV03.yml
+   - !!inc/file layers/Annotations/L03/BNDA_CTY_ANNO_L03_POINT/label/Memeber State_AVG SURF_LV03.yml
+   - !!inc/file layers/Annotations/L03/PHYP_ANNO_L03_POINT/label/SOUTHERN OCEAN_LV03(Ocean_LV03).yml
+   - !!inc/file layers/Annotations/L03/PHYP_ANNO_L03_POINT/label/NORTH ATLANTIC OCEAN_LV03(Ocean_LV03).yml
+   - !!inc/file layers/Annotations/L03/PHYP_ANNO_L03_POINT/label/Black Sea_LV03 (Sea).yml
+   - !!inc/file layers/Annotations/L03/PHYP_ANNO_L03_POINT/label/Sea LV03.yml
+   - !!inc/file layers/Annotations/L03/PHYP_ANNO_L03_POINT/label/Gulfs and Bays LV03.yml
+   - !!inc/file layers/Annotations/L03/PHYP_ANNO_L03_POINT/label/Ocean LV03.yml
+   - !!inc/file layers/Annotations/L02/PHYP_ANNO_L02_POINT/label/SOUTERN OCEAN_LV02(OCEAN_LV02).yml
+   - !!inc/file layers/Annotations/L02/PHYP_ANNO_L02_POINT/label/OCEAN_LV02.yml
 _ssl: true
