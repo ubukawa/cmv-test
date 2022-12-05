@@ -1,21 +1,16 @@
 {
   "version": 8,
   "sources": {
-    "esri": {
+    "ras": {
       "type": "raster",
-      "attribution": "UN_CLEARMAP",
-      "minzoom": 0,
-      "maxzoom": 6,
       "tiles": [
         "https://geoservices.un.org/arcgis/rest/services/ClearMap_WebPlain/MapServer/tile/{z}/{y}/{x}"
-      ]
+      ],
+      "minzoom": 0,
+      "maxzoom": 6
     }
   },
   "layers": [
-    {
-      "id": "raster",
-      "type": "raster",
-      "source": "esri",
-    }
+      {"id": "test", "type": "raster", "source": "ras"}
   ]
 }
