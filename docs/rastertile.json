@@ -6,11 +6,9 @@
       "attribution": "UN_CLEARMAP",
       "minzoom": 0,
       "maxzoom": 6,
-      "scheme": "xyz",
       "tiles": [
         "https://geoservices.un.org/arcgis/rest/services/ClearMap_WebPlain/MapServer/tile/{z}/{y}/{x}"
-      ],
-      "tileSize": 256
+      ]
     }
   },
   "layers": [
